@@ -41,11 +41,14 @@
         <section id="projects" class="mt-5">
             <h1>Projects</h1>
             <div class="row">
+                <!-- Updated Project 1 -->
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Description of Project 1.</p>
+                            <h5 class="card-title">Personal Portfolio Website</h5>
+                            <p class="card-text">A personal portfolio website built using HTML, CSS, JavaScript, and Bootstrap, showcasing my projects and skills.</p>
+                            <a href="https://dean2699.github.io/portfolio-website/" class="btn btn-primary" target="_blank">View Project</a>
+                            <a href="https://github.com/dean2699/portfolio-website" class="btn btn-secondary" target="_blank">View Code</a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +74,25 @@
         <!-- Contact Section -->
         <section id="contact" class="mt-5">
             <h1>Contact</h1>
-            <p>Provide contact details or a contact form here...</p>
+            <form id="contact-form" action="https://formspree.io/your-email" method="POST">
+                <div class="form-group">
+                    <label for="name">Alexander Manuel Dean T. Ferrazzini</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">deanferrazzini@gmail.com</label>
+                    <input type="email" class="form-control" id="email" name="_replyto" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact-number">Contact me anytime!</label>
+                    <textarea class="form-control" id="contact-number" name="contact-number" name="contactnumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Contact me anytime!</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
         </section>
     </div>
 

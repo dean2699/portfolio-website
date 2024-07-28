@@ -7,6 +7,7 @@ This is a personal portfolio website project created to showcase my skills, proj
 - **Responsive Design**: Ensures the website is accessible and looks good on various devices (mobile, tablet, desktop).
 - **Interactive Elements**: Basic JavaScript for interactivity.
 - **Bootstrap Integration**: Utilizes Bootstrap for styling and layout.
+- **Contact Form**: Allows users to send messages via a contact form with a page refresh on successful submission.
 
 ## Technologies Used
 - **HTML**: For structuring the content.
@@ -75,10 +76,15 @@ This is a personal portfolio website project created to showcase my skills, proj
 2. **JavaScript Interactivity**:
     - Basic DOM manipulation.
     - Event handling for user interactions.
+    - AJAX form submission with page refresh on successful submission.
 
 3. **Bootstrap Integration**:
     - Utilized Bootstrap CDN for CSS and JS.
     - Leveraged Bootstrap components like navigation bar, modals, and cards.
+
+4. **Contact Form**:
+    - Integrated a contact form using Formspree.
+    - Added JavaScript to handle form submission and refresh the page upon successful submission.
 
 ## Deployment
 The website can be deployed using GitHub Pages, Netlify, Vercel, or any other static site hosting service.
